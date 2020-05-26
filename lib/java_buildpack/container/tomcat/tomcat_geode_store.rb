@@ -128,7 +128,7 @@ module JavaBuildpack
       def add_manager(context)
         context.add_element 'Manager',
                             'className' => SESSION_MANAGER_CLASS_NAME,
-                            'enableLocalCache' => 'true',
+                            'enableLocalCache' => 'false',
                             'regionAttributesId' => REGION_ATTRIBUTES_ID
       end
 
